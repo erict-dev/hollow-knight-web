@@ -1,0 +1,96 @@
+
+a {
+  text-decoration: none;
+}
+
+.hk-transparent-button {
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.full-background-image {
+  height: 100vh;
+  max-height: 800px;
+  min-height: 640px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-container { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.floating-transparent-box {
+  padding: 30px;
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+  width: 540px;
+  margin: 8%;
+}
+
+.ftb-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.ftb-container-reversed {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.ftb-title {
+  font-weight: 700;
+  padding-bottom: 1em;
+}
+
+.ftb-description {
+  font-weight: 300;
+}
+
+.accolades-container {
+  color: white;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  max-height: 800px;
+  min-height: 640px;
+}
+
+.accolade {
+  max-width: 320px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.accolades-title {
+  font-size: 1.25em;
+}
+
+#team-cherry-logo {
+  height: 80px;
+  width: 100px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#hollow-knight-logo {
+  height: 240px;
+  width: 600px;
+  min-width: 300px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
