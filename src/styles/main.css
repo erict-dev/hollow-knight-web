@@ -48,6 +48,7 @@ a {
   justify-content: flex-start;
 }
 
+
 .ftb-title {
   font-weight: 700;
   padding-bottom: 1em;
@@ -159,3 +160,24 @@ li {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+@media only screen and (max-width: 900px) {
+  .floating-transparent-box {
+    margin: 0;
+  }
+
+  .ftb-container, .ftb-container-reversed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-height: 800px;
+    min-height: 680px;
+  }
+
+  .accolades-container {
+    width: 80%;
+  }
+}
+
