@@ -1,0 +1,30 @@
+.purchase-logo {
+  width: 120px;
+  height: 38px;
+  margin: 16px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.purchase-logos-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.purchase-logo-group {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 580px) {
+  .purchase-logos-container {
+    flex-direction: column;
+  }
+  .purchase-logo-group {
+    flex-direction: row;
+  }
+}
+

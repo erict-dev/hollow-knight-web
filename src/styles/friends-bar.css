@@ -1,0 +1,49 @@
+.friends-logo {
+  width: 250px;
+  height: 110px;
+  margin: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.friends-logos-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.friends-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 16px;
+  width: 300px;
+}
+
+.friends-description {
+  text-align: center;
+  margin-bottom: 10px;
+  min-height: 50px;
+}
+
+.friends-button {
+  background-color: white;
+  color: black;
+  padding: 16px;
+  border-radius: 28px;
+  width: 240px;
+  text-align: center;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 996px) {
+  .friends-logos-container {
+    flex-direction: column;
+  }
+}
+
