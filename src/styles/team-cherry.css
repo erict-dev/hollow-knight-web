@@ -15,6 +15,7 @@
 .team-cherry-description {
   max-width: 640px;
   padding: 0 40px;
+  text-align: center;
 }
 
 #team-cherry-page-logo {
@@ -24,3 +25,46 @@
   width: 360px;
   height: 290px;
 }
+
+.team-cherry-team-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: first baseline;
+  padding-bottom: 80px;
+}
+
+.team-cherry-team-photo {
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 16px;
+}
+
+.team-cherry-team-profile {
+  width: 320px;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.team-cherry-team-title {
+  font-weight: 700;
+  font-size: 1.25em;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 780px) {
+  .team-cherry-team-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+

@@ -15,6 +15,12 @@ import "../styles/main.css"
 import "../styles/buy.css"
 import "../styles/team-cherry.css"
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+import { faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faYoutube } from '@fortawesome/free-brands-svg-icons'
+
 import ESRB from "../images/logos/esrb.png"
 import Unity from "../images/logos/unity.png"
 
@@ -36,10 +42,18 @@ const Layout = ({ children }) => (
           <main>{children}</main>
           <footer>
             <img src={ESRB} style={{ width: 180, height: 'auto' }}/>
-            <img src={Unity} style={{ width: 180, height: 'auto' }}/>
-            <a href="#">Contact Us</a>
-            <a href="#">Hollow Knight Press Kit</a>
-            <div>
+            <a href="https://unity.com/madewith/hollow-knight" target="_blank"><img src={Unity} style={{ width: 180, height: 'auto' }}/></a>
+
+            <a href="mailto:press@teamcherry.com.au" target="_blank">Contact Us</a>
+            <a href="https://drive.google.com/drive/folders/0BzxIOSR3fQW2clhnY012ZDk3ZVE" target="_blank">Hollow Knight Press Kit</a>
+
+            <div className="social-links">
+              <a href="https://www.facebook.com/teamcherrygames/" target="_blank"><FontAwesomeIcon icon={faFacebook} size="lg"/></a>
+              <a href="https://twitter.com/TeamCherryGames" target="_blank"><FontAwesomeIcon icon={faTwitter} size="lg"/></a>
+              <a href="https://www.youtube.com/channel/UCZS2K8ZsUmujTuj3cNMyBSA" target="_blank"><FontAwesomeIcon icon={faYoutube} size="lg"/></a>
+            </div>
+
+            <div style={{ fontSize: '0.8em' }}>
               Hollow Knight is © Copyright {new Date().getFullYear()} Team Cherry
             </div>
           </footer>

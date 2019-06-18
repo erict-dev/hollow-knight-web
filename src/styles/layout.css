@@ -38,6 +38,16 @@ footer {
   text-align: center;
 }
 
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
 article,
 aside,
 details,
