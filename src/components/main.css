@@ -1,6 +1,7 @@
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 .hk-transparent-button {
@@ -76,6 +77,75 @@ a {
 
 .accolades-title {
   font-size: 1.25em;
+}
+
+.bordered-section-title-bar {
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.section-title-bar {
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-title {
+  font-size: 1.5em;
+  font-weight: 700;
+  padding: 50px;
+  text-align: center;
+}
+
+.expansion-section {
+  height: 100vh;
+  max-height: 800px;
+  min-height: 640px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.expansion-image {
+  width: 25%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.expansion-text-container {
+  padding: 30px;
+  background-color: rgba(0,0,0,0.65);
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.expansion-title {
+  font-weight: 700;
+  font-size: 1.25em;
+}
+
+.expansion-description {
+  margin-bottom: 10px;
+}
+
+li {
+  margin: 0;
 }
 
 #team-cherry-logo {

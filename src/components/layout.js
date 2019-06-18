@@ -12,6 +12,11 @@ import { StaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "./layout.css"
 import "./main.css"
+import "./buy.css"
+import "./team-cherry.css"
+
+import ESRB from "../images/logos/esrb.png"
+import Unity from "../images/logos/unity.png"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -30,9 +35,13 @@ const Layout = ({ children }) => (
         <div>
           <main>{children}</main>
           <footer>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
+            <img src={ESRB} style={{ width: 180, height: 'auto' }}/>
+            <img src={Unity} style={{ width: 180, height: 'auto' }}/>
+            <a href="#">Contact Us</a>
+            <a href="#">Hollow Knight Press Kit</a>
+            <div>
+              Hollow Knight is © Copyright {new Date().getFullYear()} Team Cherry
+            </div>
           </footer>
         </div>
       </>

@@ -6,6 +6,17 @@ const Header = ({ siteTitle }) => (
   <header className="nav">
       <div className="nav-link">
         <Link
+          to="/"
+          style={{
+            color: `white`,
+            textDecoration: `none`,
+          }}
+        >
+          Home
+        </Link>
+      </div>
+      <div className="nav-link">
+        <Link
           to="/team-cherry"
           style={{
             color: `white`,

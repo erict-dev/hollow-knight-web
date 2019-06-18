@@ -18,6 +18,10 @@ import HkReviewsBg from "../images/hk-reviews-bg.jpg"
 
 import AwardLogos from "../images/award-logos.png"
 
+import HiddenDreams from "../images/expansions/dreams.jpg"
+import Grimm from "../images/expansions/grimm.jpg"
+import Lifeblood from "../images/expansions/lifeblood.jpg"
+import Godmaster from "../images/expansions/godmaster.jpg"
 
 const IndexPage = () => (
   <Layout>
@@ -98,11 +102,80 @@ const IndexPage = () => (
       </div>
     </div>
 
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div className="section-title-bar">
+      <div className="section-title">
+        Hollow Knight Expands with 4 Giant Free Content Packs
+      </div>
+
     </div>
 
-    <Link to="/page-2/">Go to page 2</Link>
+    <div className="expansion-section">
+      <div className="expansion-image" style={{ backgroundImage: `url(${HiddenDreams})`}}>
+        <div className="expansion-text-container">
+          <div className="expansion-title">Hidden Dreams</div>
+          <div className="expansion-description">Take your place amongst the Gods.</div>
+          <ul>
+            <li>New Major Quest</li>
+            <li>New Boss Fights</li>
+            <li>New Charms</li>
+            <li>New Enemies</li>
+            <li>New Friends</li>
+          </ul>
+        </div>
+      </div>
+      <div className="expansion-image" style={{ backgroundImage: `url(${Grimm})`}}>
+        <div className="expansion-text-container">
+          <div className="expansion-title">Hidden Dreams</div>
+          <div className="expansion-description">Take your place amongst the Gods.</div>
+          <ul>
+            <li>New Major Quest</li>
+            <li>New Boss Fights</li>
+            <li>New Charms</li>
+            <li>New Enemies</li>
+            <li>New Friends</li>
+          </ul>
+        </div>
+      </div>
+      <div className="expansion-image" style={{ backgroundImage: `url(${Lifeblood})`}}>
+        <div className="expansion-text-container">
+          <div className="expansion-title">Hidden Dreams</div>
+          <div className="expansion-description">Take your place amongst the Gods.</div>
+          <ul>
+            <li>New Major Quest</li>
+            <li>New Boss Fights</li>
+            <li>New Charms</li>
+            <li>New Enemies</li>
+            <li>New Friends</li>
+          </ul>
+        </div>
+      </div>
+      <div className="expansion-image" style={{ backgroundImage: `url(${Godmaster})`}}>
+        <div className="expansion-text-container">
+          <div className="expansion-title">Hidden Dreams</div>
+          <div className="expansion-description">Take your place amongst the Gods.</div>
+          <ul>
+            <li>New Major Quest</li>
+            <li>New Boss Fights</li>
+            <li>New Charms</li>
+            <li>New Enemies</li>
+            <li>New Friends</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div className="section-title-bar">
+      <div className="section-title">
+        Purchase Hollow Knight Now
+      </div>
+    </div>
+
+    <div className="bordered-section-title-bar">
+      <div className="section-title">
+        Visit Our Friends
+      </div>
+
+    </div>
   </Layout>
 )
 

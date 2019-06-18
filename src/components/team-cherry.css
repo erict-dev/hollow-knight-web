@@ -1,0 +1,26 @@
+.team-cherry-section {
+  background-color: #d82742;
+  color: white;
+}
+
+.team-cherry-header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.team-cherry-description {
+  max-width: 640px;
+  padding: 0 40px;
+}
+
+#team-cherry-page-logo {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 360px;
+  height: 290px;
+}

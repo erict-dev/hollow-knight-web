@@ -26,12 +26,22 @@ body {
   padding: 20px;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 30px;
+  padding-bottom: 10px;
+}
+
 article,
 aside,
 details,
 figcaption,
 figure,
-footer,
 header,
 main,
 menu,
