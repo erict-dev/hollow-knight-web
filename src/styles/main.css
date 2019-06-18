@@ -128,6 +128,7 @@ a {
   background-color: rgba(0,0,0,0.65);
   color: white;
   width: 100%;
+  height: 260px;
   text-align: center;
 }
 
@@ -161,9 +162,57 @@ li {
   background-repeat: no-repeat;
 }
 
+@media only screen and (max-width: 1070px) {
+  .expansion-section {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    max-height: initial;
+    min-height: initial;
+  }
+
+  .expansion-image {
+    width: 100%;
+    height: 320px;
+    background-position: right;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-color: black;
+    align-items: flex-start;
+  }
+  .expansion-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    max-width: 440px;
+    min-width: 200px;
+    margin: 20px 0;
+  }
+
+  #hidden-dreams {
+    background-position-y: bottom;
+  }
+
+  #the-grimm-troupe {
+    background-position-y: center;
+  }
+
+  #lifeblood {
+    background-position-y: 25%;
+  }
+
+  #godmaster {
+    background-position-y: 20%;
+  }
+
+}
+
 @media only screen and (max-width: 900px) {
   .floating-transparent-box {
     margin: 0;
+    width: 80%;
   }
 
   .ftb-container, .ftb-container-reversed {
@@ -178,6 +227,20 @@ li {
 
   .accolades-container {
     width: 80%;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  #hollow-knight-logo {
+    height: 150px;
+    width: 360px;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  #hollow-knight-logo {
+    height: 120px;
+    width: 280px;
   }
 }
 
