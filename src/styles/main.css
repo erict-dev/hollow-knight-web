@@ -4,10 +4,25 @@ a {
   color: white;
 }
 
+a:hover {
+  text-decoration: inherit;
+}
+
 .hk-transparent-button {
   padding: 10px 20px;
-  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 100px;
+  font-weight: 700;
+  border: 1px solid white;
+  background-color: rgba(0, 0, 0, 0.9);
   color: white;
+}
+
+.hk-transparent-button:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+  border: 1px solid white;
+  transition: background-color 300ms linear;
+  text-decoration: none;
 }
 
 .full-background-image {

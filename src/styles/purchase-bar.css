@@ -7,6 +7,11 @@
   background-repeat: no-repeat;
 }
 
+.purchase-logo:hover {
+  border-bottom: 1px solid white;
+  transition: border 200ms;
+}
+
 .purchase-logos-container {
   display: flex;
   flex-direction: row;

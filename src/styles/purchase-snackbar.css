@@ -32,3 +32,8 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+.purchase-snackbar-logo:hover {
+  border-bottom: 1px solid white;
+  transition: border 200ms;
+}
