@@ -1,0 +1,34 @@
+.purchase-snackbar {
+  position: fixed;
+  width: auto;
+  height: 50px;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  background-color: rgba(0,0,0,0.8);
+  padding: 0 20px;
+}
+
+@media only screen and (max-width: 720px) {
+  .purchase-snackbar {
+    display: none;
+  }
+}
+
+.purchase-snackbar-logo-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.purchase-snackbar-logo {
+  width: 80px;
+  height: 24px;
+  margin: 12px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
