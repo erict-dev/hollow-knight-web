@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import Particles from "../components/particles"
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -25,6 +27,8 @@ const BuyPage = () => (
 
     <div className="full-background-image" style={{ backgroundImage: `url(${BuyBg})`}}>
 
+      <Particles />
+
       <div className="buy-drawer">
         <div id="hk-buy-logo" style={{ backgroundImage: `url(${HollowKnightLogo})`}} />
         <div className="buy-divider" />
@@ -42,26 +46,29 @@ const BuyPage = () => (
     </div>
 
 
-      <div className="full-background-image soundtrack-info-container" style={{ backgroundImage: `url(${SoundtrackBg})`}}>
-        <div className="ftb-container-reversed">
-          <div className="floating-transparent-box-soundtrack">
+    <div className="full-background-image soundtrack-info-container" style={{ backgroundImage: `url(${SoundtrackBg})`}}>
 
-            <div className="albums" style={{ backgroundImage: `url(${Albums})`}} />
+      <Particles />
 
-            <div className="soundtrack-cta-title">Purchase the Official Soundtrack</div>
-            <div className="ftb-title">A Haunting Orchestral Score</div>
-            <div className="ftb-description">Composed and produced by Christopher Larkin, Hollow Knight's epic score is woven throughout the game, echoing the sadness of a majestic civilisation brought to ruin.</div>
+      <div className="ftb-container-reversed">
+        <div className="floating-transparent-box-soundtrack">
 
-            <div className="soundtrack-cta-container">
-              Buy now on <a href="https://christopherlarkin.bandcamp.com/album/hollow-knight-original-soundtrack" target="_blank" rel="noopener noreferrer"><span id="bandcamp" style={{ backgroundImage: `url(${Bandcamp})`}}></span></a>
-            </div>
+          <div className="albums" style={{ backgroundImage: `url(${Albums})`}} />
 
+          <div className="soundtrack-cta-title">Purchase the Official Soundtrack</div>
+          <div className="ftb-title">A Haunting Orchestral Score</div>
+          <div className="ftb-description">Composed and produced by Christopher Larkin, Hollow Knight's epic score is woven throughout the game, echoing the sadness of a majestic civilisation brought to ruin.</div>
+
+          <div className="soundtrack-cta-container">
+            Buy now on <a href="https://christopherlarkin.bandcamp.com/album/hollow-knight-original-soundtrack" target="_blank" rel="noopener noreferrer"><span id="bandcamp" style={{ backgroundImage: `url(${Bandcamp})`}}></span></a>
           </div>
+
         </div>
       </div>
+    </div>
 
 
-    </Layout>
-    )
+  </Layout>
+  )
 
-    export default BuyPage
+  export default BuyPage

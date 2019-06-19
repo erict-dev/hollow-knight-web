@@ -53,6 +53,7 @@ a:hover {
   color: white;
   width: 540px;
   margin: 8%;
+  z-index: 2;
 }
 
 .ftb-container {

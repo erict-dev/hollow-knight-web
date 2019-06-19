@@ -4,6 +4,8 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import Particles from "../components/particles"
+
 import LandingScreen from "../components/landing-screen"
 import Accolades from "../components/accolades"
 import Expansions from "../components/expansions"
@@ -21,6 +23,7 @@ const IndexPage = () => (
     <LandingScreen />
 
     <div className="full-background-image" style={{ backgroundImage: `url(${PurpleBg})`}}>
+      <Particles />
       <div className="ftb-container">
         <div className="floating-transparent-box">
           <div className="ftb-title">Brave the depths of a forgotten kingdom</div>
@@ -31,6 +34,7 @@ const IndexPage = () => (
     </div>
 
     <div className="full-background-image" style={{ backgroundImage: `url(${WhiteBg})`}}>
+      <Particles />
       <div className="ftb-container-reversed">
         <div className="floating-transparent-box">
           <div className="ftb-title">Use Your Skills and Reflexes to Survive</div>
@@ -45,6 +49,7 @@ const IndexPage = () => (
     </div>
 
     <div className="full-background-image" style={{ backgroundImage: `url(${GreenBg})`}}>
+      <Particles />
       <div className="ftb-container">
         <div className="floating-transparent-box">
           <div className="ftb-title">Evocative Hand-Drawn Art</div>

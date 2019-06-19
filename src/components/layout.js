@@ -39,7 +39,9 @@ const Layout = ({ children }) => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
         <div>
-          <main>{children}</main>
+          <main>
+            {children}
+          </main>
           <footer>
             <img src={ESRB} style={{ width: 180, height: 'auto' }}/>
             <a href="https://unity.com/madewith/hollow-knight" target="_blank" rel="noopener noreferrer"><img src={Unity} style={{ width: 180, height: 'auto' }}/></a>
