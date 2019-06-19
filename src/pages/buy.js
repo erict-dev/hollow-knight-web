@@ -50,12 +50,7 @@ const BuyPage = () => (
 
             <div className="soundtrack-cta-title">Purchase the Official Soundtrack</div>
             <div className="ftb-title">A Haunting Orchestral Score</div>
-            <div className="ftb-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
-              commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            </div>
+            <div className="ftb-description">Composed and produced by Christopher Larkin, Hollow Knight's epic score is woven throughout the game, echoing the sadness of a majestic civilisation brought to ruin.</div>
 
             <div className="soundtrack-cta-container">
               Buy now on <a href="https://christopherlarkin.bandcamp.com/album/hollow-knight-original-soundtrack" target="_blank"><span id="bandcamp" style={{ backgroundImage: `url(${Bandcamp})`}}></span></a>
