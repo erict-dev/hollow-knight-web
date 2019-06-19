@@ -58,7 +58,7 @@ const BuyPage = () => (
             </div>
 
             <div className="soundtrack-cta-container">
-              Buy now on <span id="bandcamp" style={{ backgroundImage: `url(${Bandcamp})`}}></span>
+              Buy now on <a href="https://christopherlarkin.bandcamp.com/album/hollow-knight-original-soundtrack" target="_blank"><span id="bandcamp" style={{ backgroundImage: `url(${Bandcamp})`}}></span></a>
             </div>
 
           </div>

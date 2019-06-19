@@ -11,7 +11,7 @@
 .buy-drawer {
   position: absolute;
   top: 110px;
-  right: 20%;
+  right: 15%;
   background-color: rgba(0,0,0,0.8);
   padding: 20px;
   color: white;
@@ -43,17 +43,26 @@
 }
 
 #bandcamp {
-  width: 300px;
-  height: 140px;
+  width: 160px;
+  height: 30px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  display: inline-block;
 }
 
 .soundtrack-info-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.soundtrack-cta-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
 }
 
 .soundtrack-cta-title {
