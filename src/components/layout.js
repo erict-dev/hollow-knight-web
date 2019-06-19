@@ -42,15 +42,15 @@ const Layout = ({ children }) => (
           <main>{children}</main>
           <footer>
             <img src={ESRB} style={{ width: 180, height: 'auto' }}/>
-            <a href="https://unity.com/madewith/hollow-knight" target="_blank"><img src={Unity} style={{ width: 180, height: 'auto' }}/></a>
+            <a href="https://unity.com/madewith/hollow-knight" target="_blank" rel="noopener noreferrer"><img src={Unity} style={{ width: 180, height: 'auto' }}/></a>
 
-            <a href="mailto:press@teamcherry.com.au" target="_blank">Contact Us</a>
-            <a href="https://drive.google.com/drive/folders/0BzxIOSR3fQW2clhnY012ZDk3ZVE" target="_blank">Hollow Knight Press Kit</a>
+            <a href="mailto:press@teamcherry.com.au" target="_blank" rel="noopener noreferrer">Contact Us</a>
+            <a href="https://drive.google.com/drive/folders/0BzxIOSR3fQW2clhnY012ZDk3ZVE" target="_blank" rel="noopener noreferrer">Hollow Knight Press Kit</a>
 
             <div className="social-links">
-              <a href="https://www.facebook.com/teamcherrygames/" target="_blank"><FontAwesomeIcon icon={faFacebook} size="lg"/></a>
-              <a href="https://twitter.com/TeamCherryGames" target="_blank"><FontAwesomeIcon icon={faTwitter} size="lg"/></a>
-              <a href="https://www.youtube.com/channel/UCZS2K8ZsUmujTuj3cNMyBSA" target="_blank"><FontAwesomeIcon icon={faYoutube} size="lg"/></a>
+              <a href="https://www.facebook.com/teamcherrygames/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} size="lg"/></a>
+              <a href="https://twitter.com/TeamCherryGames" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} size="lg"/></a>
+              <a href="https://www.youtube.com/channel/UCZS2K8ZsUmujTuj3cNMyBSA" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faYoutube} size="lg"/></a>
             </div>
 
             <div style={{ fontSize: '0.8em' }}>

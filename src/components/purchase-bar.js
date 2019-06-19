@@ -16,16 +16,16 @@ const PurchaseBar = () => (
     </div>
     <div className="purchase-logos-container">
       <div className="purchase-logo-group">
-        <a href="https://www.nintendo.com/games/detail/hollow-knight-switch" target="_blank"><div className="purchase-logo" style={{ backgroundImage: `url(${Switch})`}}/></a>
-        <a href="https://store.playstation.com/en-us/product/UP1822-CUSA13632_00-HOLLOWKNIGHT18US" target="_blank"><div className="purchase-logo" style={{ backgroundImage: `url(${PS4})`}}/></a>
+        <a href="https://www.nintendo.com/games/detail/hollow-knight-switch" target="_blank" rel="noopener noreferrer"><div className="purchase-logo" style={{ backgroundImage: `url(${Switch})`}}/></a>
+        <a href="https://store.playstation.com/en-us/product/UP1822-CUSA13632_00-HOLLOWKNIGHT18US" target="_blank" rel="noopener noreferrer"><div className="purchase-logo" style={{ backgroundImage: `url(${PS4})`}}/></a>
       </div>
       <div className="purchase-logo-group">
-        <a href="https://www.microsoft.com/en-us/p/hollow-knight-voidheart-edition/9mw9469v91lm" target="_blank"><div className="purchase-logo" style={{ backgroundImage: `url(${Xbox})`}}/></a>
-        <a href="https://store.steampowered.com/app/367520/Hollow_Knight/" target="_blank"><div className="purchase-logo" style={{ backgroundImage: `url(${Steam})`}}/></a>
+        <a href="https://www.microsoft.com/en-us/p/hollow-knight-voidheart-edition/9mw9469v91lm" target="_blank" rel="noopener noreferrer"><div className="purchase-logo" style={{ backgroundImage: `url(${Xbox})`}}/></a>
+        <a href="https://store.steampowered.com/app/367520/Hollow_Knight/" target="_blank" rel="noopener noreferrer"><div className="purchase-logo" style={{ backgroundImage: `url(${Steam})`}}/></a>
       </div>
       <div className="purchase-logo-group">
-        <a href="https://www.gog.com/game/hollow_knight" target="_blank"><div className="purchase-logo" style={{ backgroundImage: `url(${Gog})`}}/></a>
-        <a href="https://www.humblebundle.com/store/hollow-knight" target="_blank"><div className="purchase-logo" style={{ backgroundImage: `url(${HumbleStore})`}}/></a>
+        <a href="https://www.gog.com/game/hollow_knight" target="_blank" rel="noopener noreferrer"><div className="purchase-logo" style={{ backgroundImage: `url(${Gog})`}}/></a>
+        <a href="https://www.humblebundle.com/store/hollow-knight" target="_blank" rel="noopener noreferrer"><div className="purchase-logo" style={{ backgroundImage: `url(${HumbleStore})`}}/></a>
       </div>
     </div>
   </div>
