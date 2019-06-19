@@ -16,6 +16,10 @@
   border: none !important;
 }
 
+.modal-backdrop.show {
+  opacity: 0.85;
+}
+
 html {
   font-family: 'Open Sans', sans-serif;
   -ms-text-size-adjust: 100%;

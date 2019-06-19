@@ -41,6 +41,10 @@ a:hover {
   justify-content: center;
   align-items: center;
   height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 .floating-transparent-box {
