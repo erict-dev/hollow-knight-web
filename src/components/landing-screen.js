@@ -2,6 +2,8 @@ import React from "react"
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
 
+import Fade from 'react-reveal/Fade';
+
 import Cover from 'react-video-cover';
 
 import PurchaseSnackbar from "../components/purchase-snackbar"
@@ -62,9 +64,11 @@ class VideoLandingScreen extends React.Component {
         />
         <PurchaseSnackbar />
         <div className="hero-container">
-          <div id="team-cherry-logo" style={{ backgroundImage: `url(${TeamCherryLogo})`}}></div>
-          <div id="hollow-knight-logo" style={{ backgroundImage: `url(${HollowKnightLogo})`}}></div>
-          <a href="#" onClick={() => this.setState({ modalShow: true })}><div className="hk-transparent-button">Watch Trailer</div></a>
+          <Fade>
+            <div id="team-cherry-logo" style={{ backgroundImage: `url(${TeamCherryLogo})`}}></div>
+            <div id="hollow-knight-logo" style={{ backgroundImage: `url(${HollowKnightLogo})`}}></div>
+            <a href="#" onClick={() => this.setState({ modalShow: true })}><div className="hk-transparent-button">Watch Trailer</div></a>
+          </Fade>
         </div>
         <MyVerticallyCenteredModal
           show={this.state.modalShow}

@@ -1,5 +1,7 @@
 import React from "react"
 
+import Fade from 'react-reveal/Fade';
+
 import HiddenDreams from "../images/expansions/dreams.jpg"
 import Grimm from "../images/expansions/grimm.jpg"
 import Lifeblood from "../images/expansions/lifeblood.jpg"
@@ -7,6 +9,7 @@ import Godmaster from "../images/expansions/godmaster.jpg"
 
 
 const Expansions = () => (
+  <Fade cascade>
     <div className="expansion-section">
 
       <div id="hidden-dreams" className="expansion-image" style={{ backgroundImage: `url(${HiddenDreams})`}}>
@@ -59,6 +62,7 @@ const Expansions = () => (
       </div>
 
     </div>
+  </Fade>
 
 )
 export default Expansions
