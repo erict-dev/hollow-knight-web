@@ -75,6 +75,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  z-index: 1;
 }
 
 

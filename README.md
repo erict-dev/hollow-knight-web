@@ -1,3 +1,32 @@
+## Reddit Post
+
+I used to make websites for AAA games so I rebuilt the Hollow Knight website for fun.
+
+Hey reddit, long time lurker on this sub, ya'll helped me stay sane in Hallownest. This is one of my favorite games of all time, and I still listen to the soundtrack when I work to get all the feels back when I'm coding, since I'm basically doing the same thing and fighting bugs :)
+
+I used to work full time building custom websites for a AAA game studio, but now I'm a freelance web designer/developer. I'm currently between clients with nothing to do and decided to polish up the Hollow Knight website, because I noticed their current website https://hollowknight.com is just a wordpress template and I think they deserve a slick custom site for such a masterpiece game.
+
+Check it out: https://hungry-kilby-bf32ff.netlify.com/
+
+- I kept all the same content/links/text. I didn't take any liberties with the text so the messaging is exactly the same as before, it's not my place to change any of that. I just gave it a redesign polish that highlights the amazing art and ambiance of the game, also added some interactive/dynamic elements to make the website feel more alive and engaging.
+
+- Used more art from their official press kit. These guys have AMAZING art talent so I wanted to showcase as much of it on the website as I could.
+
+- A lot of CTA's to buy the game, can't miss it, because that's one of the main goals of a game website is to sell copies of the game. And I hope these guys sell a million more copies because they deserve every bit of success.
+
+- Optimized images, videos. Meaning faster load times. Their old site was 7.82 MB with a content load time of ~14 seconds on a 4G connection, that's too slow and most new visitors will just leave. I got that down to 2.12 MBs and 3.8 seconds on 4G and that's with more graphics.
+
+- Mobile responsive down to 368px screen sizes and up to 2440px ('theoretically' there's no upper limit here)
+
+- Tested on Firefox, Chrome, Mobile firefox, mobile chrome. I don't have a PC to check on IE/Edge but should be fine on all modern browsers.
+
+- Other boring SEO stuff
+
+
+If anyone from Team Cherry sees this, I'd love to offer the website to them for free if they want it. It's production ready. I know they are just 3 guys and are probably swamped, especially with Silksong coming! I can't imagine they have the time or resources to spend designing and building a great website on top of their game dev tasks.
+
+
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
