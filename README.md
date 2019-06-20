@@ -18,12 +18,12 @@ Check it out: https://hungry-kilby-bf32ff.netlify.com/
 
 - Mobile responsive down to 368px screen sizes and up to 2440px ('theoretically' there's no upper limit here)
 
-- Tested on Firefox, Chrome, Mobile firefox, mobile chrome. I don't have a PC to check on IE/Edge but should be fine on all modern browsers.
+- Tested on Firefox, Chrome, Safari, mobile safari, mobile chrome. I don't have a PC to check on IE/Edge but should be fine on all modern browsers.
 
 - Other boring SEO stuff
 
 
-If anyone from Team Cherry sees this, I'd love to offer the website to them for free if they want it. It's production ready. I know they are just 3 guys and are probably swamped, especially with Silksong coming! I can't imagine they have the time or resources to spend designing and building a great website on top of their game dev tasks.
+If anyone from Team Cherry sees this, I'd love to offer the website to them for free, if they want it. The website is production ready so it would be plug n' play for them. I know they are just 3 guys and are probably swamped, especially with Silksong coming! I can't imagine they have the time or resources to spend designing and building a great website on top of their game dev tasks.
 
 
 
