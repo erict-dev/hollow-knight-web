@@ -58,6 +58,10 @@ const Layout = ({ children }) => (
             <div style={{ fontSize: '0.8em' }}>
               Hollow Knight is © Copyright {new Date().getFullYear()} Team Cherry
             </div>
+
+            <div style={{ fontSize: '0.6em' }}>
+              Website created by <span><a href="https://erict.dev" target="_blank" rel="noopener noreferrer">erict.dev</a></span>
+            </div>
           </footer>
         </div>
       </>
